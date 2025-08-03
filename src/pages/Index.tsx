@@ -48,8 +48,8 @@ const Index = () => {
       <div className="min-h-screen bg-background p-4 md:p-8">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-8">
-            <Button 
-              variant="ghost" 
+            <Button
+              variant="ghost"
               onClick={() => setCurrentStep('welcome')}
               className="mb-4"
             >
@@ -65,7 +65,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
-      <section 
+      <section
         className="relative h-screen flex items-center justify-center text-white overflow-hidden"
         style={{
           backgroundImage: `linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.3)), url(${heroImage})`,
@@ -77,7 +77,7 @@ const Index = () => {
         <div className="absolute inset-0 bg-gradient-hero opacity-70"></div>
         <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in">
-            Plan Your Perfect
+            Hassle-free travel planning for your next{" "}
             <span className="block bg-gradient-to-r from-white to-primary-glow bg-clip-text text-transparent">
               Adventure
             </span>
@@ -86,17 +86,17 @@ const Index = () => {
             Create personalized itineraries, discover amazing destinations, and share your travel plans with friends and family.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button 
-              variant="hero" 
-              size="lg" 
+            <Button
+              variant="hero"
+              size="lg"
               onClick={handleStartPlanning}
               className="text-lg px-8 py-4"
             >
               Start Planning
               <Plane className="w-5 h-5 ml-2" />
             </Button>
-            <Button 
-              variant="outline" 
+            <Button
+              variant="outline"
               size="lg"
               className="text-lg px-8 py-4 border-white text-white hover:bg-white hover:text-primary"
             >
@@ -117,7 +117,7 @@ const Index = () => {
               We make travel planning effortless with intelligent recommendations and collaborative tools.
             </p>
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center group">
               <div className="w-16 h-16 mx-auto mb-4 bg-gradient-ocean rounded-xl flex items-center justify-center shadow-travel group-hover:shadow-glow transition-smooth">
@@ -128,7 +128,7 @@ const Index = () => {
                 AI-powered suggestions based on your preferences, budget, and travel style.
               </p>
             </div>
-            
+
             <div className="text-center group">
               <div className="w-16 h-16 mx-auto mb-4 bg-gradient-sunset rounded-xl flex items-center justify-center shadow-travel group-hover:shadow-glow transition-smooth">
                 <Calendar className="w-8 h-8 text-white" />
@@ -138,7 +138,7 @@ const Index = () => {
                 Drag-and-drop itinerary builder with real-time availability and booking.
               </p>
             </div>
-            
+
             <div className="text-center group">
               <div className="w-16 h-16 mx-auto mb-4 bg-gradient-nature rounded-xl flex items-center justify-center shadow-travel group-hover:shadow-glow transition-smooth">
                 <Users className="w-8 h-8 text-white" />
@@ -148,7 +148,7 @@ const Index = () => {
                 Share plans with your travel group and collaborate on the perfect itinerary.
               </p>
             </div>
-            
+
             <div className="text-center group">
               <div className="w-16 h-16 mx-auto mb-4 bg-primary rounded-xl flex items-center justify-center shadow-travel group-hover:shadow-glow transition-smooth">
                 <Plane className="w-8 h-8 text-white" />
@@ -171,9 +171,9 @@ const Index = () => {
           <p className="text-xl mb-8 text-white/90">
             Join thousands of travelers who trust TripCraft to create unforgettable experiences.
           </p>
-          <Button 
-            variant="hero" 
-            size="lg" 
+          <Button
+            variant="hero"
+            size="lg"
             onClick={handleStartPlanning}
             className="text-lg px-8 py-4"
           >
